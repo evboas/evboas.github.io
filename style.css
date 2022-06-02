@@ -213,6 +213,20 @@ hr{
     width: 250px;
 
     background-color: var(--menu);
+    transition: 500ms;
+}
+
+.projetos__card:hover{
+    border: 2px solid var(--links);
+}
+
+.projetos__card-link{
+    text-decoration: none;
+}
+
+.projetos__card-link:visited{
+    text-decoration: none;
+    color: var(--cor-fonte);
 }
 
 .card__imagem img{
@@ -225,6 +239,10 @@ hr{
     color: var(--contraste);
     margin: 5px;
     text-align: center;
+}
+
+.card__titulo:visited{
+    color: var(--contraste);
 }
 
 .card__descricao{
