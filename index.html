@@ -21,13 +21,13 @@
                     <a href="#introducao">Home</a>
                 </li>
                 <li class="cabecalho__menu-item">
-                    <a href="#sobre">Sobre mim</a>
+                    <a href="#secao_sobre">Sobre mim</a>
                 </li>
                 <li class="cabecalho__menu-item">
-                    <a href="#projetos">Projetos</a>
+                    <a href="#secao_projetos">Projetos</a>
                 </li>
                 <li class="cabecalho__menu-item">
-                    <a href="#habilidades">Habilidades</a>
+                    <a href="#secao_habilidades">Habilidades</a>
                 </li>
             </ul>
         </div> <!-- cabecalho__menu -->
@@ -51,17 +51,17 @@
             <div class="introducao__imagem">
                 <img src="/assets/img/foto-perfil.jpg" alt="" class="introducao__foto">
             </div> <!-- introducao__imagem -->           
-        </section>
+        </section> <!-- introducao -->
     
-        <div class="divisao__secao">
+        <div class="divisao__secao" id="secao_sobre">
             <hr>
-        </div>
+        </div> <!-- divisao__secao -->
 
         <section class="sobre" id="sobre">
             <h2 class="sobre__titulo">Um pouco sobre mim</h2>
             <div class="sobre__conteudo">
                 <div class="sobre__imagem">
-                    <img src="/assets/img/foto-perfil.jpg" alt="" class="introducao__foto">
+                    <img src="/assets/img/sobre.jpg" alt="" class="sobre__foto">
                 </div> <!-- introducao__imagem -->
 
                 <div class="sobre__box-texto">
@@ -88,13 +88,13 @@
                     <p class="sobre__texto-final">
                         Veja alguns dos meus projetos abaixo
                     </p>      
-                </div>
-            </div>
-        </section>
+                </div> <!-- sobre__box-texto -->
+            </div><!-- sobre__conteudo -->
+        </section> <!-- sobre -->
 
-        <div class="divisao__secao">
+        <div class="divisao__secao" id="secao_projetos">
             <hr>
-        </div>
+        </div> <!-- divisao__secao -->
 
         <section class="projetos" id="projetos">
             <h2 class="projetos__titulo">Projetos</h2>
@@ -103,84 +103,105 @@
                     <a href="https://github.com/evboas/MedidorUltrassonico" class="projetos__card-link">
                         <div class="card__imagem">
                             <img src="https://github.com/evboas/MedidorUltrassonico/blob/main/img/Hardware.png?raw=true" alt="Imagem do projeto medidor Ultrassônico">
-                        </div>
+                        </div> <!-- card__imagem -->
                         <h3 class="card__titulo">Medidor Ultrassônico</h3>
                         <p class="card__descricao">
                             Este projeto foi elaborado para ser utilizado em laboratório de hidráulica para realizar 30 medidas 
                             do nível de água de um canal de água.
                         </p>
                     </a>
-                </div>
+                </div> <!-- projetos__card -->
 
                 <div class="projetos__card">
                     <div class="card__imagem">
                         <img src="" alt="">
-                    </div>
+                    </div> <!-- card__imagem -->
                     <h3 class="card__titulo">Projeto em desenvolvimento</h3>
                     <p class="card__descricao">
                         Projeto em desenvolvimento, em breve estará disponível aqui.
                     </p>
-                </div>
+                </div> <!-- projetos__card -->
 
                 <div class="projetos__card">
                     <div class="card__imagem">
                         <img src="" alt="">
-                    </div>
+                    </div> <!-- card__imagem -->
                     <h3 class="card__titulo">Em breve</h3>
                     <p class="card__descricao">
                         Gostou dos projetos que viu aqui? Podemos desenvolver um próximo juntos, me mande um e-mail.
                     </p>
-                </div>
+                </div> <!-- projetos__card -->
 
                 <div class="projetos__card">
                     <div class="card__imagem">
                         <img src="" alt="">
-                    </div>
+                    </div> <!-- card__imagem -->
                     <h3 class="card__titulo">Em breve</h3>
                     <p class="card__descricao">
                         Gostou dos projetos que viu aqui? Podemos desenvolver um próximo juntos, me mande um e-mail.
                     </p>
-                </div>
+                </div> <!-- projetos__card -->
 
                 <div class="projetos__card">
                     <div class="card__imagem">
                         <img src="" alt="">
-                    </div>
+                    </div> <!-- card__imagem -->
                     <h3 class="card__titulo">Em breve</h3>
                     <p class="card__descricao">
                         Gostou dos projetos que viu aqui? Podemos desenvolver um próximo juntos, me mande um e-mail.
                     </p>
-                </div>
+                </div> <!-- projetos__card -->
 
                 <div class="projetos__card">
                     <div class="card__imagem">
                         <img src="" alt="">
-                    </div>
+                    </div> <!-- card__imagem -->
                     <h3 class="card__titulo">Em breve</h3>
                     <p class="card__descricao">
                         Gostou dos projetos que viu aqui? Podemos desenvolver um próximo juntos, me mande um e-mail.
                     </p>
-                </div>
-            </div>
-        </section>
+                </div> <!-- projetos__card -->
+            </div> <!-- projetos__conteudo -->
+        </section> <!-- projetos -->
 
-        <div class="divisao__secao">
+        <div class="divisao__secao" id="secao_habilidades">
             <hr>
-        </div>
+        </div> <!-- divisao__secao -->
 
         <section class="habilidades" id="habilidades">
             <h2 class="habilidades__titulo">Habilidades</h2>
             <div class="habilidades__conteudo">
-                <div class="habilidades__conteudo-icones">
-                    <ul class="habilidades__icones-lista">
-                        <li class="habilidade__icone-item">Sistemas Embarcado</li>
-                        <li class="habilidade__icone-item">Sistemas Web</li>
-                        <li class="habilidade__icone-item">Front-End</li>
-                        <li class="habilidade__icone-item">Dados</li>
+                <div class="habilidades__conteudo-topico">
+                    <ul class="habilidades__topico-lista">
+                        <li class="habilidade__topico-item">
+                            <button class="habilidade__topico-btn btn-embarcados">
+                                Sistemas Embarcado
+                            </button>
+                        </li>
+                        <li class="habilidade__topico-item topico-web">
+                            <button class="habilidade__topico-btn btn-web">
+                                Sistemas Web
+                            </button>
+                        </li>
+                        <li class="habilidade__topico-item topico-front">
+                            <button class="habilidade__topico-btn btn-front">
+                                Front-End
+                            </button>
+                        </li>
+                        <li class="habilidade__topico-item topico-dados">
+                            <button class="habilidade__topico-btn btn-dados">
+                                Dados
+                            </button>
+                        </li>
                     </ul>
-                </div>
+                </div> <!-- habilidades__conteudo-icones -->
                 <div class="habilidades__descricao">
-                    <div class="embarcados">
+
+                    <div class="descricao__inicio">
+                        <p>* Clique nos tópicos ao lado para ver a descrição *</p>
+                    </div> <!-- descricao__inicio -->
+
+                    <div class="hidden" id="embarcados">
                         <p>O maior foco dos estudo são os sistemas embarcados, dentre as habilidades
                         desenvolvidas para esta atividades estão:</p>
                         <ul class="habilidades__lista">
@@ -190,22 +211,18 @@
                             <li class="habilidades__item">linguagem VHDL</li>
                             <li class="habilidades__item">Projetos com KiCAD</li>
                         </ul>
-                    </div>
-                </div>
+                    </div> <!-- embarcados -->
 
-                <div class="habilidades__descricao">
-                    <div class="web">
+                    <div class="hidden" id="web">
                         <p>Para o desenvolvimento de sistemas web, as seguintes habilidades foram e 
                             estão sendo desenvolvidas:</p>
                         <ul class="habilidades__lista">
                             <li class="habilidades__item">Linguagem de programação PHP</li>
                             <li class="habilidades__item">Programação com CodeIgniter</li>
                         </ul>
-                    </div>
-                </div>
+                    </div> <!-- web -->
 
-                <div class="habilidades__descricao">
-                    <div class="front">
+                    <div class="front hidden">
                         <p>Tanto sistemas web quanto embarcados precisam de uma interface de usuário,
                         assim tenho trabalhado os seguintes tópicos</p>
                         <ul class="habilidades__lista">
@@ -214,9 +231,10 @@
                             <li class="habilidades__item">Bootstrap</li>
                             <li class="habilidades__item">Vue.js</li>
                         </ul>
-                    </div>
-            </div>
-        </section>
+                    </div> <!-- front -->
+                </div> <!-- habilidades__descricao -->
+            </div> <!-- habilidades__conteudo -->
+        </section> <!-- habilidades -->
     </main>
 
     <footer>

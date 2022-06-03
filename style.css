@@ -1,6 +1,6 @@
 :root{
     --bg-color: #151F30;
-    --menu: rgba(0, 0, 0, .9);
+    --menu: rgba(0, 0, 0, .7);
     --links: #0593A2;
     --contraste: #FF7A48;
     --divisao: #E3371E;
@@ -29,7 +29,7 @@ body{
 
 h2{
     text-align: center;
-    margin: 50px 0px;
+    margin: 100px 0px;
 }
 
 /*-----------MENU------------*/
@@ -49,6 +49,9 @@ h2{
     border-radius: 50%;
     margin-left: 50px;
     padding: 1.1rem .5rem;
+
+    background: rgb(168,240,255);
+    background: linear-gradient(315deg, rgba(168,240,255,1) 0%, rgba(123,137,175,1) 14%, rgba(2,0,36,1) 100%); 
 }
 
 .cabecalho__menu-lista{
@@ -80,6 +83,9 @@ h2{
 
 .introducao{
     align-items: center;
+    background-image: 
+        linear-gradient(315deg, rgba(168,240,255,.95) 0%, rgba(123,137,175,.95) 14%, rgba(2,0,36,.95) 100%),
+        url('/assets/img/tela-fundo.png');
     display: grid;
     grid-template-columns: 4fr 2fr;
     height: 100vh;
@@ -108,11 +114,11 @@ h2{
 
 .introducao__foto{
     /* Formatação */
-    height: 200px;
-    width: 200px; 
+    height: 300px;
+    width: 300px; 
     
     /* mascara */
-    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2.5px 2.5px 1px .5px rgba(0, 0, 0, 0.2);
     border-radius: 50%;
     object-fit: cover;
 }
@@ -164,6 +170,10 @@ hr{
 
 /*-----------SOBRE------------*/
 
+.sobre{
+    margin-bottom: 90px;
+}
+
 .sobre__conteudo{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -174,6 +184,17 @@ hr{
 .sobre__imagem{
     box-sizing: border-box;
     justify-self: center;
+}
+
+.sobre__foto{
+    /* Formatação */
+    height: 200px;
+    width: 200px; 
+    
+    /* mascara */
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .sobre__box-texto{
@@ -252,21 +273,39 @@ hr{
 
 /*-----------HABILIDADES------------*/
 
+.habilidades{
+    margin-bottom: 90px;
+}
+
 .habilidades__conteudo{
     align-items: center;
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin: 50px 100px;
+
 }
 
-.habilidades__icones-lista{
+.habilidades__topico-lista{
     list-style-type: none;
     margin: 10px 30px;
     border-right: 2px solid var(--contraste);
 }
 
-.habilidade__icone-item{
+.habilidade__topico-item{
     margin: 20px 0px;
+}
+
+.habilidade__topico-btn{
+    background-color: var(--menu);
+    border: none;
+    color: var(--cor-fonte);
+    font-size: 16px;
+    height: 50px;
+    width: 250px;
+}
+
+.habilidade__topico-btn:hover{
+    font-size: 18px;
 }
 
 .habilidades__lista{
@@ -277,19 +316,11 @@ hr{
     margin: 5px 0px;
 }
 
-.embarcados{
+.descricao__inicial{
     display: block;
 }
 
-.web{
-    display: none;
-}
-
-.front{
-    display: none;
-}
-
-.dados{
+.hidden{
     display: none;
 }
 
