@@ -17,7 +17,6 @@ const descricoes = [descricaoEmbarcados, descricaoWeb, descricaoFront, descricao
 
 botoes.forEach((botao, i) => {
     botao.addEventListener('click', () => {
-        console.log(i);
         descricaoInicio.classList.add('hidden');
         descricoes.forEach((descricao, j) => {
             if(!descricao.classList.contains('hidden')) {
@@ -25,7 +24,6 @@ botoes.forEach((botao, i) => {
             };
             if(i == j){
                 descricao.classList.remove('hidden');
-                console.log(j)
             };
         });
     })
