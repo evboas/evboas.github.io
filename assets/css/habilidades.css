@@ -48,3 +48,31 @@
 .hidden{
     display: none;
 }
+
+@media screen and (max-width: 768px){
+    .habilidades__conteudo{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;    
+    }
+    
+    .habilidades__conteudo-topico{
+        width: 100%;
+    }
+
+
+    .habilidades__topico-lista{
+        border-right: none;
+        list-style-type: none;
+        margin: 10px;
+    }
+
+    .habilidade__topico-btn{
+        width: 100%;
+    }
+
+    .habilidades__descricao{
+        width: 90%;
+    }
+}

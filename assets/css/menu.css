@@ -42,3 +42,9 @@
 .cabecalho__menu-item a:hover{
     color: var(--contraste);
 }
+
+@media screen and (max-width: 768px){
+    .cabecalho{
+        display: none;
+    }
+}

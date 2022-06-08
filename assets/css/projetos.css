@@ -56,3 +56,26 @@
     font-size: 14px;
     margin: 8px;
 }
+
+@media screen and (max-width: 768px){
+    .projetos__conteudo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+
+    .projetos__card{
+        height: auto;
+        width: 90%;
+    }
+
+    .card__titulo{
+        margin: 1.5rem;
+    }
+
+    .card__descricao{
+        font-size: 1rem;
+        margin: 1.2rem;
+    }
+}

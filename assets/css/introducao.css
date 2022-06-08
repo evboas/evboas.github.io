@@ -70,3 +70,26 @@
 .btn-texto{
     margin-left: 25px;
 }
+
+@media screen and (max-width: 768px){
+    .introducao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .introducao__nome{
+        /*Fomatação do texto*/
+        font-family: var(--fonte-intro);
+        font-size: 2.5rem;
+    
+        /* Disposição na tela */
+        margin: 15px 0px;
+    }
+
+    .introducao__foto{
+        height: 200px;
+        width: 200px; 
+    }
+}
