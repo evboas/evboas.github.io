@@ -1,0 +1,39 @@
+.sobre{
+    margin-bottom: 90px;
+}
+
+.sobre__conteudo{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin: 80px;
+}
+
+.sobre__imagem{
+    box-sizing: border-box;
+    justify-self: center;
+}
+
+.sobre__foto{
+    /* Formatação */
+    height: 200px;
+    width: 200px; 
+    
+    /* mascara */
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sobre__box-texto{
+    border-left: 5px solid var(--contraste);
+    padding-left: 20px;
+}
+
+.sobre__texto{
+    margin-bottom: 30px;
+}
+
+.sobre__texto-final{
+    text-align: center;
+}

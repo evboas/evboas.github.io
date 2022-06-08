@@ -1,0 +1,47 @@
+:root{
+    --bg-color: #151F30;
+    --menu: rgba(0, 0, 0, .7);
+    --links: #0593A2;
+    --contraste: #FF7A48;
+    --divisao: #E3371E;
+
+    --divisao1: #8C1F28;
+    --color1: #591C21;
+    --btn: #044040;
+    --color1: #D92525;
+    --cor-fonte: #F2F2F2;
+
+    --fonte-intro: 'MedievalSharp', cursive;
+    --fonte-principal: 'Roboto', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--cor-fonte);
+    font-family: var(--fonte-principal);
+}
+
+h2{
+    text-align: center;
+    margin: 100px 0px;
+}
+
+/*-----------DIVISÃO------------*/
+
+.divisao__secao{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    border-style: solid;
+    border-width: 2.5px;
+    color: var(--divisao);
+    width: 90%;
+}

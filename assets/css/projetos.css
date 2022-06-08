@@ -1,0 +1,58 @@
+.projetos__conteudo{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 250px);
+    justify-content: center;
+    row-gap: 125px;
+    margin-bottom: 150px;
+}
+
+.projetos__card{
+    /*Disposição*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* Formato */
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 350px;
+    width: 250px;
+
+    background-color: var(--menu);
+    transition: 500ms;
+}
+
+.projetos__card:hover{
+    border: 2px solid var(--links);
+}
+
+.projetos__card-link{
+    text-decoration: none;
+}
+
+.projetos__card-link:visited{
+    text-decoration: none;
+    color: var(--cor-fonte);
+}
+
+.card__imagem img{
+    background-size: contain;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+.card__titulo{
+    color: var(--contraste);
+    margin: 5px;
+    text-align: center;
+}
+
+.card__titulo:visited{
+    color: var(--contraste);
+}
+
+.card__descricao{
+    font-size: 14px;
+    margin: 8px;
+}
