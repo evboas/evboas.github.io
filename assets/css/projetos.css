@@ -57,6 +57,14 @@
     margin: 8px;
 }
 
+@media screen and (max-width: 1024px) {
+    .projetos__conteudo{
+        grid-template-columns: repeat(2, 350px);
+        grid-template-rows: repeat(3, 250px);
+        align-items: center;
+    }
+}
+
 @media screen and (max-width: 768px){
     .projetos__conteudo{
         display: flex;

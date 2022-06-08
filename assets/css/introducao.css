@@ -71,6 +71,21 @@
     margin-left: 25px;
 }
 
+@media screen and (max-width: 1024px) {
+    .introducao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .introducao__foto{
+        height: 250px;
+        width: 250px;
+        
+        margin-top: 50px;
+    }
+}
+
 @media screen and (max-width: 768px){
     .introducao{
         display: flex;

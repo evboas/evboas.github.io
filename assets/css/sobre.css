@@ -38,6 +38,12 @@
     text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+    .sobre__imagem{
+        margin-right: 30px;
+    }
+}
+
 @media screen and (max-width: 768px){
     .sobre__conteudo{
         display: flex;
