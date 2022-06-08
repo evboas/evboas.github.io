@@ -45,3 +45,9 @@ hr{
     color: var(--divisao);
     width: 90%;
 }
+
+@media screen and (max-width: 768px) {
+    h2{
+        margin: 50px 0px;
+    }
+}
