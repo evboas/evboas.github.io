@@ -8,7 +8,7 @@
     width: 100vw;
 }
 
-.cabecalho__ass{
+.cabecalho__assinatura{
     border: .2rem solid var(--cor-fonte);
     border-radius: 50%;
     margin-left: 50px;
@@ -25,13 +25,13 @@
 }
 
 .cabecalho__menu-item{
-    color: var(--links);
     font-size: 20px;
     list-style: none;
     margin: 10px 20px;
 }
 
 .cabecalho__menu-item a{
+    color: var(--links);
     text-decoration: none;
 }
 
