@@ -79,10 +79,7 @@
     }
 
     .introducao__foto{
-        height: 250px;
-        width: 250px;
-        
-        margin-top: 50px;
+        display: none;
     }
 }
 
@@ -104,7 +101,16 @@
     }
 
     .introducao__foto{
-        height: 200px;
-        width: 200px; 
+        display: none;
+    }
+
+    .introducao__box-redes{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .btn-redes{
+        margin: 10px 0 10px 0;
     }
 }
